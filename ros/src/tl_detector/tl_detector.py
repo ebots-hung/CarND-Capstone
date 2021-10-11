@@ -13,7 +13,7 @@ import yaml
 from scipy.spatial import KDTree
 
 STATE_COUNT_THRESHOLD = 3
-LOOKAHEAD_WPS_TL = 100      # Number of waypoints ahead where to look for a traffic light
+LOOKAHEAD_WPS_TL = 60      # Number of waypoints ahead where to look for a traffic light
 
 class TLDetector(object):
     def __init__(self):
