@@ -63,10 +63,10 @@ An overview of the complete system architecture is shown below
 
 This node is responsible for detecting upcoming traffic lights on the way, and classifying them based on their current state (red, yellow, green, unknown).
 
-The design intention was to use DeepLearning technique for traffic light classification. However, I could not find a compatbile Tensorflow which was able to integrate with current system. Therefore, this capstone project traffic classification is developed based on openCV algorithm (Canny, HoughlinesP and findContours functions). 
+Initialy, the design intention was to use DeepLearning technique for traffic light classification. However, I could not find a compatbile Tensorflow version which was able to integrate with current system. Therefore, the traffic classification is developed based on openCV algorithm (Canny, HoughlinesP and findContours functions). 
 
 
-| Canny-Hough Transform                   | Traffic Light classification                | 
+| Canny/Hough Transform                   | Traffic Light classification                | 
 | --------------------------------------- | ------------------------------------------- |
 | <img src="./output_imgs/tl_image_processing.png" width="400" height="200"> | <img src="./output_imgs/tl_classifier.png" width="400" height="200"> |
 
