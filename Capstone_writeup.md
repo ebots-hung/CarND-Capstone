@@ -25,7 +25,7 @@ This project involves the System Integration Simulator which contains the Capsto
 * Simulator. You can download these from the [project intro page](https://github.com/udacity/CarND-Capstone/releases) in the classroom.
 
 
-Please refer to [Usage](###Usage) in order to run the project.
+Please refer to [README.md] in order to run the project.
 
 # Introduction
 Carla vehicle uses waypoint navigation to drive on autonomously while avoiding obstacles and detecting/classifying traffic lights to stop at given stoplines' indices. Waypoints are used by Carla to do its path planning. Each waypoint has a target velocity based on the vehicle's intended behavior. The Carla's system consists of 3 main modules.
